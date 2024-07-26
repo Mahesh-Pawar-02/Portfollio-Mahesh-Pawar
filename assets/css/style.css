@@ -466,7 +466,7 @@ main {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: hsla(240, 1%, 17%, 0.75);
+  background: hsla(240, 10%, 63%, 0.75);
   backdrop-filter: blur(10px);
   border: 1px solid var(--jet);
   border-radius: 12px 12px 0 0;
@@ -1162,7 +1162,8 @@ main {
 }
 
 .form-input {
-  color: var(--white-2);
+  /* color: var(--white-2); */
+  color: var(--eerie-black-2);
   font-size: var(--fs-6);
   font-weight: var(--fw-400);
   padding: 13px 20px;
