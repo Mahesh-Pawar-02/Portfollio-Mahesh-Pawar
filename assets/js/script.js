@@ -53,8 +53,17 @@ for (let i = 0; i < testimonialsItem.length; i++) {
 modalCloseBtn.addEventListener("click", testimonialsModalFunc);
 overlay.addEventListener("click", testimonialsModalFunc);
 
+// Profile Image
+let Profile = document.getElementById("profile-pic");
+let inputfile = document.getElementById("input-file");
 
+Profile.src = "./assets/images/my-avatar.png"
 
+inputfile.onchange = function()
+{
+  let url = URL.createObjectURL(inputfile.files[0])
+  Profile.src = url;
+}
 // custom select variables
 const select = document.querySelector("[data-select]");
 const selectItems = document.querySelectorAll("[data-select-item]");

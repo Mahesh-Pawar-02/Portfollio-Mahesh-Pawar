@@ -20,6 +20,7 @@
   <!--
     - google font link
   -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -41,8 +42,12 @@
 
       <div class="sidebar-info">
 
+           <!---PROFILE -->
         <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="mahesh_pawar" width="80">
+          <img id="profile-pic" alt="mahesh_pawar" width="80">
+          <input type="file" accept="image/jpeg, image/png, image/jpg" id="input-file"> 
+          <label for="input-file"><i class="fa-solid fa-user-pen"></i>Edit</label>
+          
         </figure>
 
         <div class="info-content">
@@ -222,10 +227,13 @@
 
         <section class="about-text">
           <p>
-            I am an enthusiastic and dedicated software developer with a strong foundation in various programming languages C, C++, Java, Python, TypeScript, JavaScript.
-            and a passion for machine learning and automation. 
-            My journey has equipped me with a diverse set of skills ranging from application development and data analysis to 
-            web automation and deep learning. I am driven by the opportunity to enhance my knowledge, improve my skills, and contribute to the overall 
+            I am an enthusiastic and dedicated software developer with a strong foundation in various programming
+            languages C, C++, Java, Python, TypeScript, JavaScript.
+            and a passion for machine learning and automation.
+            My journey has equipped me with a diverse set of skills ranging from application development and data
+            analysis to
+            web automation and deep learning. I am driven by the opportunity to enhance my knowledge, improve my skills,
+            and contribute to the overall
             development of the organizations I work with.
           </p>
 
@@ -589,7 +597,7 @@
               <ion-icon name="book-outline"></ion-icon>
             </div>
 
- <!-- Experience -->
+            <!-- Experience -->
 
             <h3 class="h3">Experience</h3>
           </div>
@@ -608,7 +616,7 @@
 
             </li>
 
-          <!-- <li class="timeline-item">
+            <!-- <li class="timeline-item">
 
               <h4 class="h4 timeline-item-title">Art director</h4>
 
@@ -640,69 +648,122 @@
 
         </section>
 
- <!-- Experience end -->
+        <!-- Experience end -->
 
         <section class="skill">
 
-          <h3 class="h3 skills-title">My skills</h3>
+          <h3 class="h3 skills-title">Technical Skills:</h3>
 
-          <ul class="skills-list content-card">
+          <ul class="">
+            <ul class="skills-list content-card">
 
-            <li class="skills-item">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Procedural Language : C Programming</h5>
+                </div>
 
-              <div class="title-wrapper">
-                <h5 class="h5">Web design</h5>
-                <data value="80">80%</data>
-              </div>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Object Oriented Programming : C++ Programming, Python 3.12.2 </h5>
+                </div>
 
-              <div class="skill-progress-bg">
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h5 class="h5">Virtual Machine based Programming 	:	Java Programming</h5>
+                  </div>
+
+                  <li class="skills-item">
+                    <div class="title-wrapper">
+                      <h5 class="h5">Scripting Language	:	Python 3.12, Typescript, JavaScript</h5>
+                    </div>
+            </ul>
+
+            <section class="skill">
+
+              <h3 class="h3 skills-title">My skills</h3>
+
+              <ul class="skills-list content-card">
+
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h5 class="h5">
+                      Procedural Language : C Programming</h5>
+                    <!-- <data value="80">80%</data> -->
+                  </div>
+
+                  <!-- <div class="skill-progress-bg">
                 <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
+              </div> -->
 
-            </li>
+                </li>
 
-            <li class="skills-item">
+                <li class="skills-item">
 
-              <div class="title-wrapper">
-                <h5 class="h5">Graphic design</h5>
-                <data value="70">70%</data>
-              </div>
+                  <div class="title-wrapper">
+                    <h5 class="h5">Object Oriented Programming : C++ Programming, Python 3.12.2
+                    </h5>
+                    <!-- <data value="70">70%</data> -->
+                  </div>
 
-              <div class="skill-progress-bg">
+                  <!-- <div class="skill-progress-bg">
                 <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
+              </div> -->
 
-            </li>
+                </li>
 
-            <li class="skills-item">
+                <li class="skills-item">
 
-              <div class="title-wrapper">
-                <h5 class="h5">Branding</h5>
-                <data value="90">90%</data>
-              </div>
+                  <div class="title-wrapper">
+                    <h5 class="h5">Virtual Machine based Programming : Java Programming</h5>
+                    <!-- <data value="90">90%</data> -->
+                  </div>
 
-              <div class="skill-progress-bg">
+                  <!-- <div class="skill-progress-bg">
                 <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
+              </div> -->
 
-            </li>
+                </li>
 
-            <li class="skills-item">
+                <li class="skills-item">
 
-              <div class="title-wrapper">
-                <h5 class="h5">WordPress</h5>
-                <data value="50">50%</data>
-              </div>
+                  <div class="title-wrapper">
+                    <h5 class="h5">Scripting Language : Python 3.12, Typescript, JavaScript</h5>
+                    <!-- <data value="50">50%</data> -->
+                  </div>
 
-              <div class="skill-progress-bg">
+                  <!-- <div class="skill-progress-bg">
                 <div class="skill-progress-fill" style="width: 50%;"></div>
-              </div>
+              </div> -->
 
-            </li>
+                </li>
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h5 class="h5">JavaScript Libraries : Bootstrap, AngularJS, Material Design</h5>
+                  </div>
+                </li>
 
-          </ul>
+                </li>
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h5 class="h5">Operating System : Windows NT, Linux Distribution</h5>
+                  </div>
+                </li>
 
-        </section>
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h5 class="h5">Database : MySQL, PL/SQL (Oracle), MongoDB</h5>
+                  </div>
+                </li>
+
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h5 class="h5">Testing Techniques : Unit Testing</h5>
+                  </div>
+                </li>
+
+              </ul>
+
+            </section>
 
       </article>
 
@@ -1155,8 +1216,9 @@
         <section class="mapbox" data-mapbox>
           <figure>
             <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.3602370608232!2d73.77108377191153!3d18.647823926556292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9c3135604cd%3A0xc86dde37d915e6fd!2sPROF.%20RAMKRISHNA%20MORE%20ARTS%2C%20COMMERCE%20%26%20SCIENCE%20COLLEGE!5e0!3m2!1sen!2sin!4v1705409668787!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-            width="400" height="300" loading="lazy"></iframe>
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.3602370608232!2d73.77108377191153!3d18.647823926556292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9c3135604cd%3A0xc86dde37d915e6fd!2sPROF.%20RAMKRISHNA%20MORE%20ARTS%2C%20COMMERCE%20%26%20SCIENCE%20COLLEGE!5e0!3m2!1sen!2sin!4v1705409668787!5m2!1sen!2sin"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade" width="400" height="300" loading="lazy"></iframe>
           </figure>
         </section>
 
