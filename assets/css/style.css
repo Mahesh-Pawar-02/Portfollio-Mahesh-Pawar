@@ -14,7 +14,9 @@
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
-
+main {
+  max-width: 1500px;
+}
 :root {
 
   /**
@@ -45,8 +47,8 @@
   ), hsl(240, 2%, 13%);
   --border-gradient-onyx: linear-gradient(
     to bottom right, 
-    hsl(0, 0%, 25%) 0%, 
-    hsla(0, 0%, 25%, 0) 50%
+    #f5fedd, 
+    #242627
   );
   --text-gradient-yellow: linear-gradient(
     to right, 
@@ -1692,10 +1694,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   
 }
 
-
-
-
-
 /**
  * responsive larger than 1024px screen
  */
@@ -1718,8 +1716,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   }
 
-
-
   /**
    * REUSED STYLE
    */
@@ -1728,8 +1724,6 @@ textarea.form-input::-webkit-resizer { display: none; }
     width: 950px;
     box-shadow: var(--shadow-5);
   }
-
-
 
   /**
    * MAIN 
@@ -1742,8 +1736,6 @@ textarea.form-input::-webkit-resizer { display: none; }
     width: max-content;
     margin: auto;
   }
-
-
 
   /**
    * NAVBAR
@@ -1854,7 +1846,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   main {
-    max-width: 1200px;
+    max-width: 1500px;
     margin-inline: auto;
     display: flex;
     justify-content: center;
