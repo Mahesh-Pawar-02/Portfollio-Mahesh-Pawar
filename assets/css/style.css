@@ -27,7 +27,7 @@ main {
 
   --bg-gradient-onyx: linear-gradient(
     to bottom right, 
-    hsl(240, 1%, 25%) 3%, 
+    hsl(240, 30%, 88%) 3%, 
     hsl(0, 0%, 19%) 97%
   );
   --bg-gradient-jet: linear-gradient(
@@ -517,14 +517,17 @@ main {
 }
 
 .navbar-link {
-  color: var(--light-gray);
+  /* color: var(--light-gray); */
+  color: black;
   font-size: var(--fs-8);
+  text-transform: uppercase;
   padding: 20px 7px;
   transition: color var(--transition-1);
 }
 
 .navbar-link:hover,
-.navbar-link:focus { color: var(--light-gray-70); }
+.navbar-link:focus { color: blue }
+/* .navbar-link:focus { color: var(--light-gray-70); } */
 
 .navbar-link.active { color: var(--orange-yellow-crayola); }
 
